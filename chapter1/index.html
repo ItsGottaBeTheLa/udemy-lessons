@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>UDEMY lessons-HTML Layout Structure</title>
+    <title>UDEMY lessons-HTML Layout Structure and other items</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="UDEMY Lessons">
     <meta name="author" content="Damiano Raab">
@@ -26,6 +26,7 @@
         </nav>
     </header>
     <main>
+
         <!-- Holds main content of page can choose between using section or article -->
         <section>Chapter 1</section>
         <section>Chapter 2</section>
@@ -53,7 +54,45 @@
         </article>
         <aside>
             <!-- Post outside of article if you want to make a sidebar nav -->
+            <!-- creating a from -->
+            <form>
+                <fieldset> <!--wraps entire form-->
+                    <legend>Contact Me</legend>
+                    <label>Your Name</label>
+                    <input type="text" placeholder="Enter your Name"> 
+                    <label>Your Email</label>
+                    <input type="email" placeholder="Enter your email">
+                    <label>Your Phone Number</label>
+                    <input type="text" placeholder="Enter your phone number">
+                    <label>Password</label>
+                    <input type="password">
+                    <br><br>
+                    <label>Best Way to Contact</label><br>
+                    <input type="radio" name="contact">Email<br>
+                    <input type="radio" name="contact">Phone
+                    <br><br>
+                    <label>Type of Computer</label><br>
+                    <input type="checkbox">Mac<br>
+                    <input type="checkbox">PC
+                    <br><br>
+                    <label>Age</label>
+                    <select>
+                        <option>0-20</option>
+                        <option>20-40</option>
+                        <option>40-60</option>
+                        <option>60+</option>
+                    </select>
+                    <br><br>
+                    <label>Message</label><br>
+                    <textarea></textarea>
+                    <br><br>
+                    <input type="submit" value="Save my info">
+                    <input type="reset" value="Clear this info">
+                    
+                </fieldset>
+            </form>
         </aside>
+
     </main>
     <footer>
         Sample Footer area
