@@ -1,0 +1,51 @@
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#logo {
+    width: 260px;
+    height: 95px;
+    margin: 100px auto;
+    background: url('../images/google.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+.container {
+    width: 380px;
+    margin: 0 auto;
+    height: 550px;
+    text-align: center;
+}
+input[type="search"] {
+    width: 100%;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+input[type="search"]:hover{
+    border-color: blue;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+input[type="submit"]:active{
+    background-color: blueviolet;
+    color: azure;
+}
+a:link, a:visited{
+    color: dodgerblue;
+}
+#header {
+    text-align: right;
+    margin: 10px 10px;
+    padding: 20px;
+}
+nav ul li{
+    display: inline
+}
+#footer{
+    text-align: center;
+}
